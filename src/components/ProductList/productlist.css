@@ -2,6 +2,9 @@
 .product * {
     box-sizing: border-box;
   }
+.product{
+  margin-top:10px;
+}
   
   .product html {
     font-size: 62.5%;

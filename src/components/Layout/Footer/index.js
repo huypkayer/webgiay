@@ -30,7 +30,10 @@ export default function App() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://tailwindcss.com/" className="hover:underline">
+                  <a
+                    href="https://tailwindcss.com/"
+                    className="hover:underline"
+                  >
                     Góp ý
                   </a>
                 </li>
@@ -38,12 +41,12 @@ export default function App() {
             </div>
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Theo dõi 
+                Theo dõi
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/themesberg/flowbite"
+                    href="https://github.com/huypkayer/webgiay.git"
                     className="hover:underline "
                   >
                     Github

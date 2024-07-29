@@ -35,7 +35,7 @@ const Header = () => {
   };
 
   return (
-    <header className="header fixed-header">
+    <header className="header">
       <div className="container">
         <div className="header_inner">
           <div className="header_inner_left">

@@ -6,15 +6,7 @@ const Nike = () => {
   return (
     <div>
       <Search />
-      <ProductList categoryName="Nike" />
-    </div>
-  );
-};
-
-export default function App() {
-  return (
-    <div>
-      <nav className="flex ml-20" aria-label="Breadcrumb">
+      <nav className="flex ml-72 " aria-label="Breadcrumb">
         <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
           <li className="inline-flex items-center">
             <a
@@ -60,8 +52,8 @@ export default function App() {
           </li>
         </ol>
       </nav>
-
-     
+      <ProductList categoryName="Nike" />
     </div>
   );
-}
+};
+export default Nike;

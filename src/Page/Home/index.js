@@ -14,7 +14,7 @@ function CenterMode() {
     speed: 500,
   };
   return (
-    <div className="container">
+    <div className="container w-4/5">
       <div className="slider-container">
         <Slider {...settings}>
           <div>
@@ -28,13 +28,13 @@ function CenterMode() {
           </div>
         </Slider>
       </div>
-      <div className="Frame1142 w-96 h-11 px-5 py-2 bg-white border-l-4 border-black justify-start items-start inline-flex mt-5">
+      <div className="Frame1142 w-96 h-11 px-5 py-2 bg-white border-l-4 border-black justify-start items-start inline-flex mt-10 ml-10">
         <div className=" grow shrink basis-0 text-black text-xl font-bold font-['Noto Sans'] leading-loose">
           Sản phẩm nổi bật
         </div>
       </div>
       <div>
-        <div className="Row w-full h-52 justify-start items-start gap-4 inline-flex mt-10">
+        <div className="Row w-11/12 h-52 justify-start items-start gap-4 inline-flex mt-10 ml-10">
           <div className="Paper grow shrink basis-0 bg-white rounded-sm shadow flex-col justify-start items-start inline-flex h-60">
             <div className="CardElements self-stretch h-52 rounded-sm flex-col justify-start items-start flex">
               <div className="PlaceholderImage w-3/4 h-36 py-4 justify-center items-center inline-flex object-cover">
@@ -127,7 +127,7 @@ function CenterMode() {
                 <div className="CustomBlogPost self-stretch h-24 flex-col justify-start items-start gap-2 flex">
                   <div className="Frame60 flex-col justify-start items-start gap-0.5 flex">
                     <div className="Name  text-black text-base font-bold font-['Noto Sans'] leading-normal">
-                      NIKE TERMINATOR LOW PHANTOM
+                      NIKE TERMINATOR 
                     </div>
                     <div className="Frame410 justify-start items-start gap-0.5 inline-flex">
                       <div className="Star w-4 h-4 justify-center items-center flex">
