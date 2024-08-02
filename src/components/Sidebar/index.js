@@ -1,6 +1,6 @@
+// Sidebar.js
 import React from "react";
-import styles from "./sidebar.module.css"; // Import CSS module
-
+import styles from "./sidebar.module.css"; 
 
 const Sidebar = () => {
   return (
@@ -18,34 +18,13 @@ const Sidebar = () => {
       </div>
       <ul className={styles.sidebarMenu}>
         <li>
-          <a href="./admin">
-             Dashboard
-          </a>
+          <a href="./admin">Dashboard</a>
         </li>
         <li>
-          <a href="./addnv">
-             Quản lí nhân viên
-          </a>
+          <a href="./addnv">Quản lí nhân viên</a>
         </li>
         <li>
-          <a href="./addsp">
-             Quản lí sản phẩm
-          </a>
-        </li>
-        <li>
-          <a href="#">
-             Charts
-          </a>
-        </li>
-        <li>
-          <a href="#">
-             Pages
-          </a>
-        </li>
-        <li>
-          <a href="#">
-             Calendar
-          </a>
+          <a href="./addsp">Quản lí sản phẩm</a>
         </li>
       </ul>
     </div>

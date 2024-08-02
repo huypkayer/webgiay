@@ -1,0 +1,98 @@
+
+.adminDashboardContainer {
+  margin-left: 250px;
+  padding: 20px;
+  width: calc(100% - 250px);
+  background-color: #F5F5F5;
+}
+
+h1 {
+  font-size: 24px;
+  padding: 20px;
+}
+
+.errorMessage {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.editEmployeeForm {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.editEmployeeForm h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.formGroup label {
+  width: 150px;
+  font-weight: bold;
+}
+
+.formGroup input, .formGroup select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.employeeList {
+  margin-top: 20px;
+}
+
+.employeeList h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.employeeList table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.employeeList th, .employeeList td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.employeeList th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.employeeList tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

@@ -1,91 +1,3 @@
-/* admin.module.css */
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  background-color: #F5F5F5;
-}
-
-.container {
-  display: flex;
-  height: 100vh;
-}
-
-.sidebar {
-  width: 250px;
-  background-color: #1E88E5;
-  color: #fff;
-  height: 100%;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
-}
-
-.sidebarHeader {
-  text-align: center;
-  padding: 20px;
-  background-color: #1565C0;
-}
-
-.userInfo {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.userImg {
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-}
-
-.sidebarMenu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  flex-grow: 1;
-}
-
-.sidebarMenu li {
-  border-bottom: 1px solid #1565C0;
-}
-
-.sidebarMenu a {
-  text-decoration: none;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  padding: 15px;
-  transition: background-color 0.3s;
-}
-
-.sidebarMenu a:hover {
-  background-color: #1976D2;
-}
-
-.sidebarMenu i {
-  margin-right: 10px;
-}
-
-.mainContent {
-  margin-left: 250px;
-  padding: 20px;
-  width: calc(100% - 250px);
-  background-color: #FFF;
-  overflow-y: auto;
-}
-
-header {
-  background-color: #E3F2FD;
-  padding: 20px;
-  border-bottom: 1px solid #DDD;
-}
-
-h1 {
-  margin: 0;
-  font-size: 24px;
-  color: #333;
-}
-
 .cards {
   display: flex;
   gap: 20px;
@@ -98,12 +10,10 @@ h1 {
   flex: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
-  border-radius: 8px;
 }
 
 .card h2 {
   margin: 0 0 10px;
-  color: #333;
 }
 
 .card p {
@@ -128,7 +38,6 @@ h1 {
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
 }
 
 .orders {
@@ -138,10 +47,6 @@ h1 {
 .orders table {
   width: 100%;
   border-collapse: collapse;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  border-radius: 8px;
-  overflow: hidden;
 }
 
 .orders th, .orders td {
@@ -151,7 +56,6 @@ h1 {
 
 .orders th {
   background-color: #E3F2FD;
-  font-weight: bold;
 }
 
 .orders tr:nth-child(even) {
@@ -164,31 +68,14 @@ h1 {
   color: #fff;
 }
 
-.statusDelivered {
+.status.delivered {
   background-color: #4CAF50;
 }
 
-.statusPending {
+.status.pending {
   background-color: #FFC107;
 }
 
-.statusCancelled {
+.status.cancelled {
   background-color: #F44336;
-}
-
-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 10px;
-  display: inline-block;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #0056b3;
 }

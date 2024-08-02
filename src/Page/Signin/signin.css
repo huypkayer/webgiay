@@ -65,8 +65,8 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 12px;
-    height: 18px;
+    font-size: 18px;
+    height: 47px;
 }
 
 .signin button:hover {
@@ -95,4 +95,7 @@
 
 .signin .register-button:hover {
     background-color: #333;
+}
+.login-form h1{
+    font-weight: bold;
 }

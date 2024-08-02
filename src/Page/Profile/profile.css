@@ -25,7 +25,7 @@
   width: 100%;
   height: auto;
   border-radius: 50%;
-  border: 2px solid #ff5722;
+  border: 2px solid black;
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -47,7 +47,7 @@
 
 .profile .profile-menu ul li.active,
 .profile-menu ul li:hover {
-  background-color: #ff5722;
+  background-color: black;
   color: #ffffff;
 }
 
@@ -65,7 +65,7 @@
   font-size: 26px;
   color: #333;
   font-weight: bold;
-  border-bottom: 2px solid #ff5722;
+  border-bottom: 2px solid black;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
@@ -99,7 +99,7 @@
 .form-group input[type="password"]:focus,
 .form-group input[type="date"]:focus,
 .form-group select:focus {
-  border-color: #ff5722;
+  border-color: black;
   outline: none;
   box-shadow: 0 0 3px rgba(255, 87, 34, 0.5);
 }
@@ -122,7 +122,7 @@
 /* Nút bấm */
 .profile button {
   padding: 10px 20px;
-  background-color: #ff5722;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 4px;

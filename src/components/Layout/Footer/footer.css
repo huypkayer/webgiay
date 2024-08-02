@@ -1,5 +1,6 @@
 /* footer.css */
 .footer_content {
+  font-family: "Sarabun", sans-serif;
   width: 1200px;
   max-width: calc(100%-30px);
   margin: 0 auto;

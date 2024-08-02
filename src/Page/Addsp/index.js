@@ -1,7 +1,7 @@
+
 import React, { useState } from "react";
 import Sidebar from "../../components/Sidebar";
-import "./addsp.module.css";
-
+import styles from "./addsp.module.css"; // Import CSS module
 
 const ProductManagement = () => {
   const [productName, setProductName] = useState("");
@@ -32,7 +32,6 @@ const ProductManagement = () => {
 
     setProducts([...products, newProduct]);
 
-    // Reset form fields
     setProductName("");
     setMaterial("");
     setSellingPrice("");
@@ -43,16 +42,16 @@ const ProductManagement = () => {
   };
 
   return (
-    <div className="main-content">
+    <div className={styles.mainContent}>
       <Sidebar />
       <header>
         <h1>Quản lí sản phẩm</h1>
       </header>
       <main>
-        <section className="form-section">
+        <section className={styles.formSection}>
           <h2>Thêm sản phẩm</h2>
           <form id="productForm" onSubmit={handleAddProduct}>
-            <div className="form-group">
+            <div className={styles.formGroup}>
               <label htmlFor="productName">Tên sản phẩm:</label>
               <input
                 type="text"
@@ -63,7 +62,7 @@ const ProductManagement = () => {
                 required
               />
             </div>
-            <div className="form-group">
+            <div className={styles.formGroup}>
               <label htmlFor="material">Chất liệu:</label>
               <input
                 type="text"
@@ -74,7 +73,7 @@ const ProductManagement = () => {
                 required
               />
             </div>
-            <div className="form-group">
+            <div className={styles.formGroup}>
               <label htmlFor="sellingPrice">Giá bán:</label>
               <input
                 type="number"
@@ -85,7 +84,7 @@ const ProductManagement = () => {
                 required
               />
             </div>
-            <div className="form-group">
+            <div className={styles.formGroup}>
               <label htmlFor="discountPrice">Giá giảm:</label>
               <input
                 type="number"
@@ -95,7 +94,7 @@ const ProductManagement = () => {
                 onChange={(e) => setDiscountPrice(e.target.value)}
               />
             </div>
-            <div className="form-group">
+            <div className={styles.formGroup}>
               <label htmlFor="features">Đặc điểm nổi bật:</label>
               <textarea
                 id="features"
@@ -106,7 +105,7 @@ const ProductManagement = () => {
                 required
               ></textarea>
             </div>
-            <div className="form-group">
+            <div className={styles.formGroup}>
               <label htmlFor="productDescription">Mô tả sản phẩm:</label>
               <textarea
                 id="productDescription"
@@ -117,7 +116,7 @@ const ProductManagement = () => {
                 required
               ></textarea>
             </div>
-            <div className="form-group">
+            <div className={styles.formGroup}>
               <label htmlFor="productImage">Hình ảnh:</label>
               <input
                 type="file"
@@ -130,7 +129,7 @@ const ProductManagement = () => {
             <button type="submit">Gửi</button>
           </form>
         </section>
-        <section className="table-section">
+        <section className={styles.tableSection}>
           <h2>Danh sách sản phẩm</h2>
           <table id="productTable">
             <thead>
